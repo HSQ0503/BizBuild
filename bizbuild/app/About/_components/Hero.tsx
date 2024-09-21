@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
+import { VanishText } from './ShiftingText'
 
 const pillars = [
   {
@@ -30,27 +31,12 @@ export default function AboutHero() {
   return (
     <section className="bg-gradient-to-b from-[#00CC99] to-[#E6F7F2] text-[#082E22] py-20">
       <div className="container mx-auto px-4">
-        <motion.h1 
-          className="text-5xl md:text-6xl font-bold mb-10 text-center"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          About <span className="text-black">BizBuild</span>
-        </motion.h1>
-        <motion.p 
-          className="text-xl mb-12 text-center max-w-3xl mx-auto"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-        >
-          At BizBuild, we empower the next generation of entrepreneurs through our three core pillars:
-        </motion.p>
+        <VanishText />
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {pillars.map((pillar, index) => (
             <motion.button
               key={pillar.title}
-              className={`text-2xl font-bold px-8 py-4 rounded-full transition-all duration-300 ${
+              className={`text-2xl font-bold px-8 py-4 rounded transition-all duration-300 ${
                 index === activePillar 
                   ? 'bg-[#082E22] text-white shadow-lg scale-105' 
                   : 'bg-white text-[#082E22] hover:bg-[#082E22] hover:text-white hover:scale-105'

@@ -4,7 +4,7 @@ import CTASection from "./_components/CTA";
 
 export default function Home() {
   return (
-    <div className="w-full h-[100vh]">
+    <div className="w-full h-[100vh] ">
       <div className="w-full h-full mt-20">
         <ShuffleHero />
       </div>

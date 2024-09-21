@@ -10,7 +10,7 @@ import {
   motion,
 } from "framer-motion";
 import useMeasure from "react-use-measure";
-import Image from 'next/image';
+import Image from "next/image";
 import Link from "next/link";
 
 export const FlyoutNav = () => {
@@ -27,8 +27,8 @@ export const FlyoutNav = () => {
       transition-all duration-300 ease-out lg:px-12
       ${
         scrolled
-          ? "bg-[#00CC99] py-3 shadow-xl"
-          : "bg-[#00CC99] py-6"
+          ? "bg-[#00CC99]/90 backdrop-blur-sm py-3 shadow-xl"
+          : "bg-[#00CC99]/70 backdrop-blur-sm py-6"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between">
@@ -36,7 +36,7 @@ export const FlyoutNav = () => {
         <div className="hidden gap-6 lg:flex">
           <Links />
         </div>
-          <CTAs />
+        <CTAs />
         <MobileMenu />
       </div>
     </nav>
@@ -47,7 +47,7 @@ const Logo = ({ color = "black" }: { color?: string }) => {
   return (
     <div className="flex items-center gap-2">
       <Link href="/home">
-        <Image 
+        <Image
           src="/Images/MainLogo.png"
           alt="main logo"
           height={25}
@@ -75,7 +75,6 @@ const Links = () => {
     </div>
   );
 };
-
 
 const NavLink = ({
   children,
@@ -142,7 +141,8 @@ const AboutUsContent = () => {
         <div>
           <h2 className="mb-2 text-xl font-semibold text-white">About us</h2>
           <p className="mb-6 max-w-xs text-sm text-[#00CC99]">
-            Bizbuild is Florida's leading nonprofit organization for Entrepreneurship.
+            Bizbuild is Florida's leading nonprofit organization for
+            Entrepreneurship.
           </p>
         </div>
         <a
@@ -167,9 +167,7 @@ const AboutUsContent = () => {
           className="rounded border-2 border-[#00CC99] bg-white p-3 transition-colors hover:bg-[#00CC99] hover:text-white"
         >
           <h3 className="mb-1 font-semibold">Our Mission</h3>
-          <p className="text-xs">
-            Learn about about our Mission Statement. 
-          </p>
+          <p className="text-xs">Learn about about our Mission Statement.</p>
         </a>
         <a
           href="/About"
@@ -177,7 +175,8 @@ const AboutUsContent = () => {
         >
           <h3 className="mb-1 font-semibold">Our Team</h3>
           <p className="text-xs">
-            Be introducted to our team of dedicated Individuals ready to make a difference.
+            Be introducted to our team of dedicated Individuals ready to make a
+            difference.
           </p>
         </a>
         <a
@@ -198,9 +197,7 @@ const PricingContent = () => {
   return (
     <div className="w-full bg-white p-6 shadow-none lg:w-[250px] lg:shadow-xl">
       <button className="w-full rounded-lg border-2 border-[#082E22] px-4 py-2 font-semibold transition-colors hover:bg-[#082E22] hover:text-white">
-        <Link href="/Donate">
-          Donate
-        </Link>
+        <Link href="/Donate">Donate</Link>
       </button>
     </div>
   );
@@ -210,9 +207,7 @@ const CareersContent = () => {
   return (
     <div className="w-full bg-white p-6 shadow-none lg:w-[250px] lg:shadow-xl">
       <button className="w-full rounded-lg border-2 border-[#082E22] px-4 py-2 font-semibold transition-colors hover:bg-[#082E22] hover:text-white">
-        <Link href="/Contact">
-          Contact us
-        </Link>
+        <Link href="/Contact">Contact us</Link>
       </button>
     </div>
   );
