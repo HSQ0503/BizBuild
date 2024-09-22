@@ -61,8 +61,10 @@ export default function Navbar() {
 
         {/* Get Started Button (hidden on small screens) */}
         <div className="hidden md:block">
-          <NavLink href="/get-started" isButton>
-            Get Started
+          <NavLink href="/GetInvolved" isButton>
+            <Link href="/GetInvolved">
+                Get Started
+            </Link>
           </NavLink>
         </div>
 

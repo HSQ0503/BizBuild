@@ -7,7 +7,7 @@ export const ShuffleHero = () => {
   return (
     <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto border-4 border-[#082E22] rounded-lg bg-white shadow-lg">
       <div>
-        <h3 className="text-4xl md:text-6xl font-semibold text-black]">
+        <h3 className="text-4xl md:text-6xl font-semibold text-black">
           Are you Ready to #PlantTheSeed
         </h3>
         <p className="text-base md:text-lg text-[#000000] my-4 md:my-6">
