@@ -27,7 +27,7 @@ export const FlyoutNav = () => {
       transition-all duration-300 ease-out lg:px-12
       ${
         scrolled
-          ? "bg-[#00CC99]/90 backdrop-blur-sm py-3 shadow-xl"
+          ? "bg-[#00CC99] backdrop-blur-sm py-3 shadow-xl"
           : "bg-[#00CC99]/70 backdrop-blur-sm py-6"
       }`}
     >
@@ -127,9 +127,11 @@ const NavLink = ({
 const CTAs = () => {
   return (
     <div className="flex items-center gap-3">
-      <button className="md:flex hidden rounded-lg border-2 border-[#082E22] bg-[#082E22] px-4 py-2 font-semibold text-white transition-colors hover:border-[#000000] hover:bg-[#000000]">
-        Get Involved
-      </button>
+      <Link href="/GetInvolved">
+        <button className="md:flex hidden rounded-lg border-2 border-[#082E22] bg-[#082E22] px-4 py-2 font-semibold text-white transition-colors hover:border-[#000000] hover:bg-[#000000]">
+          Get Involved
+        </button>
+      </Link>
     </div>
   );
 };

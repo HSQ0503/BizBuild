@@ -6,7 +6,7 @@ import { Dispatch, SetStateAction, useState } from "react";
 const ShiftingContactForm = () => {
   const [selected, setSelected] = useState<"school" | "student">("student");
   return (
-    <section className="p-4 bg-[#E6F7F2]">
+    <section className="p-4">
       <div className="w-full max-w-6xl mx-auto shadow-lg flex flex-col-reverse lg:flex-row rounded-lg overflow-hidden">
         <Form selected={selected} setSelected={setSelected} />
         <Images selected={selected} />
@@ -152,7 +152,7 @@ const FormSelect = ({
 
 const Images = ({ selected }: { selected: "school" | "student" }) => {
   return (
-    <div className="bg-white relative overflow-hidden w-full min-h-[100px]">
+    <div className="relative overflow-hidden w-full min-h-[100px]">
       <motion.div
         initial={false}
         animate={{

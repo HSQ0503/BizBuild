@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./home/_components/Navbar";
 import { FlyoutNav } from "./home/_components/FlyoutNav";
+import Footer from "./components/footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,13 +29,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#E6F7F2]`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#22f0b3]`}
       >
         <div className="w-full min-h-screen">
           <FlyoutNav />
           <main className="pt-20">
             {children}
           </main>
+          <Footer />
         </div>
       </body>
     </html>

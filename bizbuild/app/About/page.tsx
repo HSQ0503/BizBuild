@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutHero from './_components/Hero'
 import { MainSection } from './_components/MainSection'
+import Team from './_components/MeetTheTeam'
 
 const page = () => {
   return (
@@ -10,6 +11,9 @@ const page = () => {
         </div>
         <div className=''>
             <MainSection />
+        </div>
+        <div>
+          <Team />
         </div>
     </div>
   )
