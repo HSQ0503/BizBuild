@@ -77,7 +77,7 @@ export default function GetInvolvedPage() {
           <div className="bg-[#082E22] text-white p-8">
             <h2 className="text-3xl font-bold mb-2">Volunteer Sign-Up Form</h2>
             <p className="text-[#00CC99] text-lg">
-              Take the first step towards making a difference. Fill out this form to express your interest in volunteering with BizBuild.
+              Take your first step towards making a difference. Fill out this form to express your interest in volunteering with BizBuild.
             </p>
           </div>
           <div className="p-8">
