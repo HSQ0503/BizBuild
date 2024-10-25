@@ -1,2 +1,0 @@
-# BizBuild
-BizBuild Nonprofit Websites
