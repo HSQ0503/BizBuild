@@ -17,7 +17,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-knewave), sans-serif;
 }
 
 @layer utilities {
@@ -88,5 +88,15 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .outline-text {
+    text-shadow: 
+      -1px -1px 0 #095d45,
+      1px -1px 0 #095d45,
+      -1px 1px 0 #095d45,
+      1px 1px 0 #095d45;
   }
 }

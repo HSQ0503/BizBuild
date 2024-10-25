@@ -29,17 +29,17 @@ export default function AboutHero() {
   }, [activePillar])
 
   return (
-    <section className="bg-gradient-to-b from-[#00CC99] to-[#E6F7F2] text-[#082E22] py-20">
+    <section className="bg-gradient-to-b from-[#40ffc6] to-[#04996e] text-[#082E22] py-20">
       <div className="container mx-auto px-4">
         <VanishText />
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {pillars.map((pillar, index) => (
             <motion.button
               key={pillar.title}
-              className={`text-2xl font-bold px-8 py-4 rounded transition-all duration-300 ${
+              className={`w-[300px] h-[80px] text-[2rem] font-medium rounded-lg border-2 transition-all shadow-[8px_8px_0px_black] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] ${
                 index === activePillar 
-                  ? 'bg-[#082E22] text-white shadow-lg scale-105' 
-                  : 'bg-white text-[#082E22] hover:bg-[#082E22] hover:text-white hover:scale-105'
+                  ? 'bg-[#082E22] text-white border-black' 
+                  : 'bg-[#00cc99] text-white border-black hover:bg-[#082E22]'
               }`}
               onClick={() => setActivePillar(index)}
               whileHover={{ scale: 1.05 }}
