@@ -66,7 +66,7 @@ export default function AboutHero() {
               sequence={[pillars[activePillar].description]}
               wrapper="p"
               speed={75}
-              className="text-lg leading-relaxed"
+              className="text-sm leading-relaxed"
             />
           </motion.div>
         </AnimatePresence>

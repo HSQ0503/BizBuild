@@ -65,7 +65,7 @@ const Page = () => {
               Team-based Challenges
             </h2>
             <p className="text-base text-center text-black leading-relaxed">
-              Whether you're part of a school chapter or a regional chapter,
+              Whether you&#39;re part of a school chapter or a regional chapter,
               your team will participate in a series of business challenges that
               mimic real-world scenarios. From developing marketing campaigns to
               solving financial dilemmas, each challenge will test your
@@ -148,7 +148,7 @@ const Page = () => {
                 <strong>Prepare for the Challenges:</strong> Your team will receive new business challenges to tackle. Work together to create innovative solutions.
               </li>
               <li>
-                <strong>Submit Your Solutions: </strong> Turn in your team's work to earn points, and keep track of how you rank against other teams on the leaderboard.
+                <strong>Submit Your Solutions: </strong> Turn in your team&#39;s work to earn points, and keep track of how you rank against other teams on the leaderboard.
               </li>
               <li>
                 <strong>Compete for the Win: </strong> Rise through the ranks by performing well in challenges and taking on extra tasks to earn bonus points

@@ -1,5 +1,4 @@
 import CustomButton from '@/app/button'
-import Link from 'next/link'
 import React from 'react'
 
 const Buttons = () => {
