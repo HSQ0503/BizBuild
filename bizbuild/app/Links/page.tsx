@@ -7,7 +7,7 @@ const Page = () => {
     <div className="w-full relative min-h-screen p-4 sm:p-6 md:p-10">
       <div className="w-full h-full fixed top-0 left-0 -z-10">
         <Image
-          src="/Images/Background/DonateBG.png"
+          src="/Images/Background/PillarBG.png"
           alt="Background"
           layout="fill"
           objectFit="cover"

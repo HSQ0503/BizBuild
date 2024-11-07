@@ -23,7 +23,7 @@ const Buttons = () => {
         />
         <CustomButton 
           text='Officers'
-          linkHref='/About'
+          linkHref='/Construction'
         />
         <CustomButton 
           text='Contact Us'
@@ -35,7 +35,7 @@ const Buttons = () => {
         />
         <CustomButton 
           text='Other Stuff'
-          linkHref='/About'
+          linkHref='/Construction'
         />
       </div>
     </div>

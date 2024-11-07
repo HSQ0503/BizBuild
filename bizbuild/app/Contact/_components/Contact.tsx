@@ -13,7 +13,7 @@ const ContactForm = () => {
           </label>
           <Input
             id="name"
-            className="border-2 border-black bg-[#40ffc6] rounded-lg px-4 py-5 text-xl font-semibold shadow-[3px_3px_0px_black]" // Increased py-5 for more height
+            className="border-2 border-black bg-[#40ffc6] rounded-lg px-4 py-5 text-xl font-semibold shadow-[3px_3px_0px_black] text-black"
           />
         </div>
 
@@ -27,7 +27,7 @@ const ContactForm = () => {
             <Input
               id="email"
               type="email"
-              className="border-2 border-black bg-[#40ffc6] rounded-lg px-4 py-5 text-xl font-semibold shadow-[3px_3px_0px_black]" // Increased py-5 for more height
+              className="border-2 border-black bg-[#40ffc6] rounded-lg px-4 py-5 text-xl font-semibold shadow-[3px_3px_0px_black] text-black"
             />
           </div>
 
@@ -39,7 +39,7 @@ const ContactForm = () => {
             <Input
               id="phone"
               type="tel"
-              className="border-2 border-black bg-[#40ffc6] rounded-lg px-4 py-5 text-xl font-semibold shadow-[3px_3px_0px_black]" // Increased py-5 for more height
+              className="border-2 border-black bg-[#40ffc6] rounded-lg px-4 py-5 text-xl font-semibold shadow-[3px_3px_0px_black] text-black"
             />
           </div>
         </div>
@@ -51,7 +51,7 @@ const ContactForm = () => {
           </label>
           <Textarea
             id="message"
-            className="border-2 border-black bg-[#40ffc6] rounded-lg px-5 py-4 text-xl font-semibold shadow-[3px_3px_0px_black] h-48"
+            className="border-2 border-black bg-[#40ffc6] rounded-lg px-5 py-4 text-xl font-semibold shadow-[3px_3px_0px_black] h-48 text-black"
           />
         </div>
 
