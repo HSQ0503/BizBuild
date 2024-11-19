@@ -101,7 +101,7 @@ export default function GetInvolvedPage() {
           </div>
           <div className="p-8">
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSc5aHcHXZOZrm_Y1YNwHjJZCNHVOVfLLdZjzYBaLHHYEYVQQA/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLScY21nDsSjX6ZsLwBcPddlUfLf9UgRGYKrT3SHS5gTikkkmDw/viewform"
               width="100%"
               height="800"
               frameBorder="0"
