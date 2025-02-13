@@ -127,7 +127,7 @@ function Deliver() {
           We support students throughout the entire product creation phase with a wide range of resources from software to hardware.
         </ListItem>
         <ListItem title="User Tests">
-          Students have access to 'test subjects' to recieve feedback on their products.
+          Students have access to &apos;test subjects&apos; to recieve feedback on their products.
         </ListItem>
       </List>
     </Section>
@@ -185,7 +185,7 @@ function Vision() {
           author={{ name: 'Grant Garcia', role: 'Student' }}
           className="mt-12"
         >
-          With Bizbuild's help, I was able to create a fully operational online buisness that is bringing in passive income!
+          With Bizbuild&apos;s help, I was able to create a fully operational online buisness that is bringing in passive income!
         </Blockquote>
     </Section>
   )
