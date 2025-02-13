@@ -73,9 +73,11 @@ function CaseStudies({
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          At the core, a buisness is simply a system that solves a probelm. <br />
-          Which leads us to belive that more buisnesses, means more problems solved. <br />
-          Let's solve more problems together.
+          At the core, a buisness is simply a system that solves a probelm.{' '}
+          <br />
+          Which leads us to belive that more buisnesses, means more problems
+          solved. <br />
+          Let&apos;s solve more problems together.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -130,7 +132,8 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We stay at the forefront of innovation and are always on the lookout for emerging markets and opportunities. 
+          We stay at the forefront of innovation and are always on the lookout
+          for emerging markets and opportunities.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -145,24 +148,26 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="Entrepreneurship Education">
+              Our nonprofit is dedicated to empowering aspiring entrepreneurs
+              through comprehensive training, mentorship, and networking
+              opportunities. We provide the tools and resources needed to turn
+              innovative ideas into impactful businesses.
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="Startup Incubation">
+              We support early-stage startups with tailored incubation programs,
+              access to seed funding, and expert guidance to navigate the
+              challenges of launching a new venture.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we&apos;ve
-              used for the past six years.
+            <ListItem title="Community Building">
+              By organizing workshops, networking events, and collaborative
+              projects, we cultivate a vibrant community of innovators committed
+              to fostering economic growth and social change.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That&apos;s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Social Impact">
+              We believe in the transformative power of entrepreneurship. Our
+              initiatives are designed to create sustainable business practices
+              that drive positive change in communities around the world.
             </ListItem>
           </List>
         </div>
@@ -187,7 +192,10 @@ export default async function Home() {
             Planting the Seed for the Generation of Tomorrow
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            BizBuild is a youth-led nonprofit organization dedicated to empowering the next generation of entrepreneurs and business professionals. By combining education, creativity, and practical experience.
+            BizBuild is a youth-led nonprofit organization dedicated to
+            empowering the next generation of entrepreneurs and business
+            professionals. By combining education, creativity, and practical
+            experience.
           </p>
         </FadeIn>
       </Container>
@@ -200,7 +208,8 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
-        With Bizbuild&apos;s help, I was able to create a fully operational online buisness that is bringing in passive income!
+        With Bizbuild&apos;s help, I was able to create a fully operational
+        online buisness that is bringing in passive income!
       </Testimonial>
 
       <Services />
