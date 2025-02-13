@@ -76,7 +76,7 @@ export default function BizlabRegistration() {
       <div className="w-full max-w-4xl bg-white p-8 shadow-lg rounded-lg">
         <FadeIn>
           <h1 className="text-2xl font-bold text-neutral-950 mb-4">
-            Bizlab Club Registration
+            Bizlab Registration
           </h1>
           <p className="text-base text-neutral-600 mb-4">
             Thank you for your interest in joining the Bizlab Club. Please fill out the registration form below.

@@ -51,7 +51,7 @@ const team = [
     title: 'Leadership',
     people: [
       {
-        name: 'Gustavo Campos',
+        name: 'Gustavo (Guga) Campos',
         role: 'Founder / CEO',
         image: { src: Guga },
       },
