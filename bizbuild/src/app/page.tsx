@@ -156,12 +156,12 @@ function Services() {
             </ListItem>
             <ListItem title="E-commerce">
               We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
+              mainly means adding your logo to the Shopify store template we&apos;ve
               used for the past six years.
             </ListItem>
             <ListItem title="Custom content management">
               At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
+              customised CMS. That&apos;s why we run all of our client projects out
               of a single, enormous Joomla instance.
             </ListItem>
           </List>
@@ -200,7 +200,7 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
-        With Bizbuild's help, I was able to create a fully operational online buisness that is bringing in passive income!
+        With Bizbuild&apos;s help, I was able to create a fully operational online buisness that is bringing in passive income!
       </Testimonial>
 
       <Services />
