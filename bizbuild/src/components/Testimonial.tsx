@@ -17,12 +17,14 @@ export function Testimonial({
   return (
     <div
       className={clsx(
-        'relative isolate bg-neutral-50 py-16 sm:py-28 md:py-32',
+        // Using the green (#00cc99) at 10% opacity as the background
+        'relative isolate bg-[#00cc99]/10 py-16 sm:py-28 md:py-32',
         className,
       )}
     >
       <GridPattern
-        className="absolute inset-0 -z-10 h-full w-full fill-neutral-100 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_50%,transparent_60%)]"
+        // Using the same green fill (#2acd9f) as in your Values component
+        className="absolute inset-0 -z-10 h-full w-full fill-[#2acd9f] stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_50%,transparent_60%)]"
         yOffset={-256}
       />
       <Container>
@@ -34,7 +36,7 @@ export function Testimonial({
               </p>
             </blockquote>
             <figcaption className="mt-10">
-              <p>- Grant Garcia, Windermere Preparatory School</p>
+              <p>- Grant Garcia</p>
             </figcaption>
           </figure>
         </FadeIn>

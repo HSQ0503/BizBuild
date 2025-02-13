@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import clsx from 'clsx'
+import { FaLinkedin } from "react-icons/fa";
 
 function FacebookIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -51,9 +52,7 @@ function DribbbleIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const socialMediaProfiles = [
   { title: 'Facebook', href: 'https://facebook.com', icon: FacebookIcon },
-  { title: 'Instagram', href: 'https://instagram.com', icon: InstagramIcon },
-  { title: 'GitHub', href: 'https://github.com', icon: GitHubIcon },
-  { title: 'Dribbble', href: 'https://dribbble.com', icon: DribbbleIcon },
+  { title: 'Linkedin', href: 'https://www.linkedin.com/in/gustavo-campos-015481297', icon: FaLinkedin },
 ]
 
 export function SocialMedia({

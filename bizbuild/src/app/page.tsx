@@ -80,7 +80,7 @@ function CaseStudies({
           Let&apos;s solve more problems together.
         </p>
       </SectionIntro>
-      <Container className="mt-16">
+      {/* <Container className="mt-16">
         <FadeInStagger className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           {caseStudies.map((caseStudy) => (
             <FadeIn key={caseStudy.href} className="flex">
@@ -118,7 +118,7 @@ function CaseStudies({
             </FadeIn>
           ))}
         </FadeInStagger>
-      </Container>
+      </Container> */}
     </>
   )
 }

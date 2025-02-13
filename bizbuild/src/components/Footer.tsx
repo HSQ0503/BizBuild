@@ -7,11 +7,10 @@ import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
   {
-    title: 'Work',
+    title: 'Join Us',
     links: [
-      { title: 'FamilyFund', href: '/work/family-fund' },
-      { title: 'Unseal', href: '/work/unseal' },
-      { title: 'Phobia', href: '/work/phobia' },
+      { title: 'Bizlab', href: '/process' },
+      { title: 'Bizleague', href: '/blog' },
       {
         title: (
           <>
@@ -82,11 +81,10 @@ function NewsletterForm() {
   return (
     <form className="max-w-sm">
       <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
-        Sign up for our newsletter
+        Sign up for alerts
       </h2>
       <p className="mt-4 text-sm text-neutral-700">
-        Subscribe to get the latest design news, articles, resources and
-        inspiration.
+        Sign up for weekly alerts to Bizlab and Bizleague.
       </p>
       <div className="relative mt-6">
         <input
@@ -125,7 +123,7 @@ export function Footer() {
             <Logo className="h-8" />
           </Link>
           <p className="text-sm text-neutral-700">
-            © BizBuild Inc. {new Date().getFullYear()}
+            © BizBuild Organization Inc. {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>

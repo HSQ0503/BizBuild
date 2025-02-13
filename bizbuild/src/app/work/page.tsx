@@ -21,6 +21,7 @@ import logoUnseal from '@/images/clients/unseal/logo-dark.svg'
 import { formatDate } from '@/lib/formatDate'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 import Contact from './Form'
+import BizlabRegistration from './Form2'
 
 function CaseStudies({
   caseStudies,
@@ -157,8 +158,19 @@ export default async function Work() {
         </p>
       </PageIntro>
 
-      <Contact />
+      {/* Registration Form Section */}
+      <Container className="mt-16">
+        <FadeIn>
+          <div className="bg-white p-10 rounded-lg shadow-xl border border-[#2acd9f]">
+            <Contact />
+          </div>
+          <div className="bg-white mt-10 p-10 rounded-lg shadow-xl border border-[#2acd9f]">
+            <BizlabRegistration />
+          </div>
+        </FadeIn>
+      </Container>
 
+      {/* Contact Section */}
       <ContactSection />
     </>
   )
