@@ -69,7 +69,7 @@ function CaseStudies({
   return (
     <>
       <SectionIntro
-        title="Driving Entrepreneurshipe for a Brighter Future"
+        title="Driving Entrepreneurship for a Brighter Future"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
