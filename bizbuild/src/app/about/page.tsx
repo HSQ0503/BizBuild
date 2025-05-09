@@ -57,22 +57,22 @@ const team = [
       },
       {
         name: 'Grant Garcia',
-        role: 'Cheif Operating Officer',
+        role: 'Chief Operating Officer',
         image: { src: Grant },
       },
       {
         name: 'Helena Cortez',
-        role: 'Cheif Financial Officer',
+        role: 'Chief Financial Officer',
         image: { src: Helena },
       },
       {
         name: 'Shouqi Han',
-        role: 'Cheif Technology Officer',
+        role: 'Chief Technology Officer',
         image: { src: Han },
       },
       {
         name: 'Nicole FerreIra',
-        role: 'Cheif Marketing Officer',
+        role: 'Chief Marketing Officer',
         image: { src: Nick },
       },
     ],
